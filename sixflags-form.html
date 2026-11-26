@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Six Flags trip form — Camp Gan Israel Cherry Hill</title>
+<meta name="description" content="Pioneer Six Flags trip form.">
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&amp;family=Rubik:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="strip" id="count-soon" hidden><strong data-days>&nbsp;</strong> days until registration opens on Dec 20</div>
+<div class="strip" id="count-open" hidden>Registration is open</div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img src="images/logo.png" alt="Camp Gan Israel Cherry Hill logo">
+      <span class="brand-name">Camp Gan Israel<span>Cherry Hill</span></span>
+    </a>
+    <nav class="nav" aria-label="Main" data-nav></nav>
+    <div class="header-actions hidesm">
+      <a class="login" href="https://www.ultracamp.com/clientlogin.aspx?idCamp=570&amp;campcode=che&amp;lang=en-US">Parent login</a>
+      <a class="btn btn-lake btn-sm press" href="https://www.ultracamp.com/clientlogin.aspx?idCamp=570&amp;campcode=che&amp;lang=en-US">Register</a>
+    </div>
+  </div>
+</header>
+
+<main>
+<section class="page-head">
+  <div class="wrap">
+    <span class="eyebrow">Pioneers</span>
+    <h1>Six Flags trip form</h1>
+    <p class="lead">Please fill this out even if your child isn't going. <a href="pioneers.html">Trip details</a></p>
+  </div>
+</section><section class="section">
+  <div class="wrap">
+<div class="f-wrap">
+<form class="cgi-form" data-form="Six Flags trip" data-thanks="Thank you! Your Six Flags trip form was received.">
+<h2 class="f-title">Pioneer Six Flags trip form</h2>
+<p class="f-hint">Includes transportation, all meals and sleeping arrangements.</p>
+<div class="f-row"><div class="f-field"><label for="parentFirst">Parent first name <span class="req">*</span></label><input type="text" id="parentFirst" name="parentFirst" required autocomplete="given-name"></div><div class="f-field"><label for="parentLast">Parent last name <span class="req">*</span></label><input type="text" id="parentLast" name="parentLast" required autocomplete="family-name"></div></div>
+<div class="f-row"><div class="f-field"><label for="camperFirst">Camper first name <span class="req">*</span></label><input type="text" id="camperFirst" name="camperFirst" required></div><div class="f-field"><label for="camperLast">Camper last name <span class="req">*</span></label><input type="text" id="camperLast" name="camperLast" required></div></div>
+<div class="f-row"><div class="f-field"><label for="email">Email <span class="req">*</span></label><input type="email" id="email" name="email" required autocomplete="email"></div><div class="f-field"><label for="phone">Phone <span class="req">*</span></label><input type="tel" id="phone" name="phone" required autocomplete="tel"></div></div>
+<fieldset class="f-group" data-need-one><legend>Please choose one <span class="req">*</span></legend><label class="f-check"><input type="radio" name="tripOption" value="My child will go to Six Flags and stay overnight"> <span>My child will go to Six Flags and stay overnight</span></label><label class="f-check"><input type="radio" name="tripOption" value="I will pick up my child from Six Flags at 8:00 PM (after dinner)"> <span>I will pick up my child from Six Flags at 8:00 PM (after dinner)</span></label><label class="f-check"><input type="radio" name="tripOption" value="My child will join Juniors for those two days"> <span>My child will join Juniors for those two days</span></label><label class="f-check"><input type="radio" name="tripOption" value="My child will stay home"> <span>My child will stay home</span></label></fieldset>
+<fieldset class="f-group" data-need-one><legend>Trip fee <span class="req">*</span></legend><label class="f-check"><input type="radio" name="tripFee" value="$175 — Full overnight" data-price="175"> <span>$175 — Full overnight</span></label><label class="f-check"><input type="radio" name="tripFee" value="$150 — Full overnight, I have a season pass" data-price="150"> <span>$150 — Full overnight, I have a season pass</span></label><label class="f-check"><input type="radio" name="tripFee" value="$125 — Day trip + dinner" data-price="125"> <span>$125 — Day trip + dinner</span></label><label class="f-check"><input type="radio" name="tripFee" value="$100 — Day trip + dinner, I have a season pass" data-price="100"> <span>$100 — Day trip + dinner, I have a season pass</span></label><label class="f-check"><input type="radio" name="tripFee" value="My child will not be attending ($0)" data-price="0"> <span>My child will not be attending ($0)</span></label></fieldset>
+<div class="f-field"><label for="permissionName">Permission: I give permission for CGI to take my child on the Six Flags trip. Type your full name. <span class="req">*</span></label><input type="text" id="permissionName" name="permissionName" required></div>
+<div class="f-field"><label for="comments">Comments</label><textarea id="comments" name="comments"></textarea></div>
+<div class="f-field"><label for="payment">How will you pay? <span class="req">*</span></label><select id="payment" name="payment" required><option value="">Choose one</option><option>Check or cash (bring to camp)</option><option>Venmo @Yitzchok-Kahan</option><option>Zelle</option><option>Credit card (camp will send a secure payment link)</option><option>Not attending</option></select></div>
+<div class="f-total"><span>Total</span><strong data-total>$0.00</strong></div>
+<div class="f-hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+<p class="f-hint">Items marked <span class="req">*</span> are required.</p>
+<div><button class="btn btn-lake press" type="submit">Submit trip form</button></div>
+<div class="f-status" data-status role="status" hidden></div>
+</form>
+</div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="">
+      <div style="display:flex;flex-direction:column;gap:4px;">
+        <span class="name">Camp Gan Israel Cherry Hill</span>
+        <a class="phone" href="tel:8564380607">856-438-0607</a>
+        <small>An affiliate of Chabad Lubavitch of Camden and Burlington Counties</small>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="https://www.facebook.com/CGICherryHill">Facebook</a>
+      <a href="https://www.instagram.com/cgicherryhill">Instagram</a>
+      <a href="communication.html">Contact</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a class="m-reg" href="https://www.ultracamp.com/clientlogin.aspx?idCamp=570&amp;campcode=che&amp;lang=en-US">Register</a>
+  <a class="m-call" href="tel:8564380607">Call</a>
+</div>
+
+<script src="js/site.js"></script>
+<script src="js/forms.js"></script>
+</body>
+</html>
